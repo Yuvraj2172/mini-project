@@ -1,8 +1,8 @@
-import Navbar from "./components/Navbar";
-
+// import Navbar from "./components/Navbar";
+import Mood from "./components/Mood";
 function App() {
   return (
-   <Navbar></Navbar>
+  <Mood></Mood>
    
   );
 }

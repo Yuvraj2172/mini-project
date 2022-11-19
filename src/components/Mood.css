@@ -1,0 +1,160 @@
+body{
+    overflow-x:hidden ;
+    background: rgba(0, 0, 0, 0.45);
+backdrop-filter: blur(85px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 10px;
+}
+.main {
+    /* display: flex; */
+    /* justify-content: center; */
+}
+.pick{
+font-family: 'Julius Sans One';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 30px;
+/* or 86% */
+
+text-align: center;
+/* letter-spacing: 0.02em; */
+
+color: #FFFFFF;
+}
+
+
+.types .choice-list {
+    margin:1%;
+    padding:5%;
+    border: 2px solid red;
+    display:  flex;
+    justify-content: center;
+    list-style: none;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #B8D4E8;
+}
+ .choice-list li {
+    text-transform: capitalize;
+    border: 2px solid yellow;
+    padding: 10px;
+    margin: 10px;
+
+}
+.choice1{
+font-family: 'Tangerine';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 30px;
+
+
+text-align: center;
+letter-spacing: 0.02em;
+
+color: #B8D4E8;
+}
+
+.choice2{
+font-family: 'Comic Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 30px;
+
+
+text-align: center;
+letter-spacing: 0.02em;
+
+color: #B8D4E8;
+}
+.choice3{
+font-family: 'Rye';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 30px;
+
+
+text-align: center;
+letter-spacing: 0.02em;
+
+color: #B8D4E8;
+}
+.choice4{
+font-family: 'Cinzel Decorative';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 30px;
+
+
+text-align: center;
+letter-spacing: 0.02em;
+
+color: #B8D4E8;
+
+}
+.choice5{
+font-family: 'Creepster';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 30px;
+
+
+text-align: center;
+letter-spacing: 0.02em;
+
+color: #B8D4E8;
+}
+.choice6{
+font-family: 'Parisienne';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 30px;
+
+
+text-align: center;
+letter-spacing: 0.02em;
+
+color: #B8D4E8;   
+}
+.choice7{
+font-family: 'Bodoni Moda';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 30px;
+
+
+text-align: center;
+letter-spacing: 0.02em;
+
+color: #B8D4E8;
+}
+.content{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+   width: 100%;
+   border: 2px solid red;
+}
+.item{
+    padding: 20px;
+    margin: 5%;
+    border: 2px solid red;
+    width: 20vw;
+    justify-content: center;
+    height: 400px;
+}
+.item img{
+    width: 100%;
+    height: 100%;
+}
